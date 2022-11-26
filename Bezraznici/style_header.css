@@ -1,0 +1,14 @@
+.the-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    width: 100vw;
+    color: #fff;
+    background: #393a4a;
+    background: #898b9c;
+    background: #f4e2db;
+    background: #db9d88;
+    background: #c57154;
+    background: #faf0ed;
+}

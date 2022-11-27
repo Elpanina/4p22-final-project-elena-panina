@@ -124,7 +124,7 @@ body {
     position: fixed;
     display: flex;
     flex-direction: row;
-    font-size: 8px;
+    font-size: 12px;
     bottom: 0;
     right:0;
     left:0;

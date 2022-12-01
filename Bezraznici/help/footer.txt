@@ -1,0 +1,44 @@
+футер
+
+хтмл
+<footer>
+    <div class="footer">
+        <div class="footer-feedback-link">
+            <div><a href="feedback.html" target="_blank">Напишите нам или задайте вопрос</a></div>
+            <div><a href="tel"+79210549336>tel: 8-921-054-93-36</a></div>
+            <div><a href="mailto:anazapta123@mail.ru">@mail: anazapta123@mail.ru</a></div>
+        </div>
+        <div class="footer-description">
+            <div>Политика конфиденциальности</div>
+            <div>Design by Elena Panina</div>
+            <div>(С) 2022 Anazapta-Shop.com</div>
+        </div>
+    </div>
+</footer>
+
+сиэсэс
+
+.footer {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+    bottom: 0;
+    right:0;
+    left:0;
+    margin: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color:#393a4a;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.footer-feedback-link > div > a {
+    color:#faf0ed;
+    text-decoration: none;
+}
+
+.footer-description {
+    color: #faf0ed;
+}

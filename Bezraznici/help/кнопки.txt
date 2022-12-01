@@ -1,0 +1,14 @@
+src\components\CardButtonBlock\card_button_block.module.css
+.card_cell:hover {
+    color: #812103;
+    border: 2px solid  #e19e87;
+    background-color: #e9cfc7;
+}
+
+.card_cell:active {
+    color: #f4e2db;
+    border: 2px solid  #53556c;
+    background-color: #393a4a;
+}
+
+

@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="feedback.css">
-    <link rel="stylesheet" type="text/css" href="all-page-style.css">
+    <!-- <link rel="stylesheet" type="text/css" href="all-page-style.css"> -->
     <title>Anazapta-Shop.com</title>
 </head>
 <body>
@@ -13,7 +13,6 @@
         <img class="logo-img" src="./Pictures/1logo.jpg" alt="Anazapta-Shop">
         <div class="header-desc">
             <h1>Интернет-магазин косметики и парфюмерии ANAZAPTA-SHOP.COM</h1>
-            <p>Самая полная информация о косметических средствах, парфюмерии, брендах и нотах: все, что вы искали, — в нашем каталоге.</p>
             <div class="header-mobil-panel">
                 <img class="button-mobil-panel" src="./icons/Lupa.svg" alt="Search">
                 <input class="Input-search" plaseholder="Search">
@@ -35,33 +34,33 @@
                     <input id="email-input" type="email" placeholder="Введите электронную почту" name="email" required autocomplete="off">
                 </div>
                 <div class="form-wrapper__input-group">
-                    <div class="input-group__label-password">
-                        <label for="password-input">Ваше имя</label>
-                        <div id="password-message" class="hidden">Имя таксебе</div>
+                    <div class="input-group__label-appeal">
+                        <label for="appeal-input">Ваше имя</label>
+                        <div id="appeal-message" class="hidden">Имя таксебе</div>
                     </div>
-                    <input id="password-input" type="password" placeholder="Как к вам обращаться" name="password" required autocomplete="off">
-                </div>
-                <div class="form-wrapper__input-group">
-                    <div class="input-group__label-confirmation">
-                        <label for="confirmation-input">Подтверждение пароля</label>
-                        <div id="confirmation-message" class="hidden">Подтверждение плох</div>
-                    </div>
-                    <input id="confirmation-input" type="password" placeholder="Подтвердите пароль" name="confirmation" required autocomplete="off">
+                    <input id="appeal-input" placeholder="Как к вам обращаться" name="appeal" required autocomplete="off">
                 </div>
                 <div class="form-wrapper__radio-group">
-                    <label>Отправить</label>
+                    <label>Отправить ответ на электронную почту</label>
                     <div class="radio-group__radio-item">
-                        <input type="radio" value="male" id="male-option" name="sex" required>
-                        <label for="male-option">анонимно</label>
+                        <input type="radio" value="yes" id="yes-option" name="answer" required>
+                        <label for="yes-option">Естессно</label>
                     </div>
                     <div class="radio-group__radio-item">
-                        <input type="radio" value="female" id="female-option" name="sex" checked>
-                        <label for="female-option">неанонимно</label>
+                        <input type="radio" value="no" id="female-option" name="answer" checked>
+                        <label for="female-option">Данеее</label>
                     </div>                    
                 </div>
                 <div class="form-wrapper__text-group">
-                    <label for="story">Обращение</label>
-                    <textarea rows="" id="story" name="story" placeholder="Сообщение должно содержать не менее 50 символов" spellcheck="false" wrap="soft" autocomplete="off"></textarea>
+                    <label for="story">Сообщение</label>
+                    <textarea rows="" id="story" name="story" placeholder="Сообщение должно содержать не менее 50 буковок" spellcheck="false" wrap="soft" autocomplete="off"></textarea>
+                </div>
+                <div class="form-wrapper__input-group">
+                    <div class="input-group__label-files">
+                        <label for="files-input">Добавьте файл</label>
+                        <div id="files-message" class="hidden">Таксебе файл</div>
+                    </div>
+                    <input id="files-input" type="file" accept="image/png, image/jpeg" placeholder="Добавьте фото" name="files" required autocomplete="off">
                 </div>
                 <div class="form-wrapper__checkbox-group">
                     <input type="checkbox" checked id="subscribtion" name="subscribtion">

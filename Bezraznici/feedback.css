@@ -159,8 +159,8 @@ form {
     border-radius: 10px;
     font-family: 'Roboto', normal;
     font-weight: 300;
-    font-size: 1.5em;      /* 1.75em = 28px при 1em = 16px из input-group? поменяла на 1,5ем*/
-    line-height: 1.286em;   /* шрифт уже изменён в пред строке, считаем em от него (1em = 28px)*/
+    font-size: 1.5em;      
+    line-height: 1.286em;   
     width: 100%;
     padding-left: 5px;
     padding-top: 5px;
@@ -169,10 +169,9 @@ form {
     opacity: 1;
 }
 
-.form-wrapper__input-group > button {
+/* .form-wrapper__input-group > button {
     border-radius: 10px;
-}
-
+} */
 
 .form-wrapper__input-group > .red-border {
     border: 2px solid #EE2424;
@@ -256,7 +255,6 @@ form {
     height: 200px;
     font-family: 'Roboto', normal;
     font-style: normal;
-    /* font-weight: 700; */
     font-size: 1.5em;
     line-height: 36px;
     padding-left: 5px;
@@ -305,7 +303,7 @@ form {
     left: 0;
     top: 0;
     height: 20px;
-    width: 20px;    /* + 2*2 на border = 24px */
+    width: 20px;    
     border: 2px solid #393a4a;
 }
 
@@ -380,7 +378,7 @@ form {
 
 @media screen and (max-width: 268px) {
     .main {
-        min-width: 272px;   /* дальше уже выглядит совсем непристойно */
+        min-width: 272px;   
     }
 
     .main__form-wrapper {

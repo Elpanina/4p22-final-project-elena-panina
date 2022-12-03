@@ -3,6 +3,7 @@ import s from './header.module.css';
 import NavBar from '../NavBar';
 import AppNavigation from '../../router/navigation';
 import logo from '../../assets/1logo.jpg';
+import { Link } from 'react-router-dom';
 
 function Header({ basketCount, showFilterButton, filtered, showFilter, setShowFilter }) {
 
@@ -11,7 +12,7 @@ function Header({ basketCount, showFilterButton, filtered, showFilter, setShowFi
     return (
         <div className={s.main}>
             <div className={s.image_block}>
-                <img src={logo} alt="AS" title={title}/>
+                <Link to={'/home'}><img src={logo} alt="AS" title={title}/></Link>
             </div>
             <div className={s.main_title_block} title={title}>
                 <p className={s.first}>Косметика и парфюмерия</p><p>ANAZAPTA-SHOP.COM</p>
